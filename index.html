@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="main">
+        <div class="left">
+        <center>
+        <h1>Result</h1>
+        <h2 id="percentage"></h2>
+        <h2 id="grade"></h2>
+        <h2 id="total"></h2>
+        <br>
+        <h1 id="POF"></h1>
+        </center>
+        </div>
+        <div class="right">
+        <center>
+        <h1>Enter marks here</h1>
+        </center>
+        <form>
+            <label><b>Hindi</b></label>
+            <input type="tel" id="Hindi" placeholder="Enter marks out of 100" style="width: 250px;height: 20px;">
+            <br><br>
+            <label><b>Telugu</b></label>
+            <input type="tel" id="Telugu" placeholder="Enter marks out of 100" style="width: 250px;height: 20px;">
+            <br><br>
+            <label><b>English</b></label>
+            <input type="tel" id="English" placeholder="Enter marks out of 100" style="width: 250px;height: 20px;">
+            <br><br>
+            <label><b>Maths</b></label>
+            <input type="tel" id="Maths" placeholder="Enter marks of out of 100" style="width: 250px;height: 20px;">
+            <br><br>
+            <label><b>Science</b></label>
+            <input type="tel" id="Science" placeholder="Enter marks out of 100" style="width: 250px;height: 20px;">
+            <br><br>
+            <label><b>Social</b></label>
+            <input type="tel" id="Social" placeholder="Enter marks out of 100" style="width: 250px;height: 20px;">
+        </form>
+        <center>
+        <button class="srbtn" onclick="calgrade()" style="width: 120px;margin-bottom: 20px;border-radius: 5px;height: 40px;"><b>Show Result</b></button>
+        </center>
+        </div>
+    </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>
